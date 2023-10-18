@@ -7,7 +7,7 @@
 ## Bootstraping your environment
 ```bash
 $docker-compose up -d
-$docker exec -it lb2-kafka-1 /usr/bin/kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic bitcoin_transaction
+$docker exec lb2-kafka-1 create_topic.sh 
 $pip install -r requirements.txt
 ```
 ## Run
