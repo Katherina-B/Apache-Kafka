@@ -7,7 +7,7 @@
 ## Bootstraping your environment
 ```bash
 $docker-compose up -d
-$docker exec lb2-kafka-1 create_topic.sh 
+$docker exec lb2-kafka-1 /usr/bin/create_topic.sh
 $pip install -r requirements.txt
 ```
 ## Run
