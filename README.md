@@ -1,18 +1,13 @@
-# Bitcoin Transaction Processing with Apache Kafka
+# Kafka-app (Bitcoin Transaction Monitor)
 
-## Requirements
- * [Docker 20+](https://www.docker.com/get-started)
- * [Python 3.11](https://www.python.org/downloads/release/python-3115/)
+This project includes scripts to monitor Bitcoin transactions using Kafka and WebSocket.
 
-## Bootstraping your environment
-```bash
-$docker-compose up -d
-$docker exec lb2-kafka-1 /usr/bin/create_topic.sh
-$pip install -r requirements.txt
-```
-## Run
-```bash
-# run in different terminal windows
-python producer.py
-python consumer.py
-```
+1. Clone the repository:
+
+   git clone https://github.com/Sango-dev/Kafka-app.git
+
+   cd .\Kafka-app\
+
+2. Start the application:
+
+   docker-compose up --build
