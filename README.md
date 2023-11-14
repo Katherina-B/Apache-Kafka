@@ -7,5 +7,3 @@
 ```bash
 #транзакції виводяться в Docker terminal
 $docker-compose up -d
-#транзакції виводяться в terminal
-$docker-compose up -build
